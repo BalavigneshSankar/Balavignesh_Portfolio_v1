@@ -1,0 +1,228 @@
+/************************/
+/* Header */
+.header {
+  height: 8rem;
+  padding: 0.8rem 1.2rem 0;
+  justify-content: flex-end;
+  margin-bottom: 9.6rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+  padding: 1.2rem;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  cursor: pointer;
+}
+
+/************************/
+/* Hero Section */
+.section-hero {
+  margin-bottom: 12.8rem;
+}
+
+.primary-heading span:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.hero-description {
+  font-size: 2rem;
+  max-width: 64rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/************************/
+/* About */
+.section-about {
+  margin-bottom: 9.6rem;
+}
+
+.profile-description {
+  font-size: 2rem;
+  margin: 2.4rem 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.skills h3 {
+  margin-bottom: 2.4rem;
+}
+
+.skills-list {
+  margin-bottom: 2.4rem;
+  list-style: none;
+}
+
+.skill-item {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.2rem;
+  margin: 0.4rem;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+}
+
+.link-contact:link,
+.link-contact:visited {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  background-color: #facf0f;
+  border-radius: 3px;
+}
+
+.link-contact:hover,
+.link-contact:active {
+  cursor: pointer;
+}
+
+.profile-img-box {
+  width: 50%;
+  position: relative;
+}
+
+.profile-img-box::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  border: 3px solid #facf0f;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  z-index: -1;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+/************************/
+/* Projects */
+.section-projects {
+  margin-bottom: 9.6rem;
+}
+
+.project-title-box {
+  margin-bottom: 1.6rem;
+}
+
+.project-link:link,
+.project-link:visited {
+  font-size: 2.4rem;
+  color: #222;
+  margin-right: 0.4rem;
+}
+
+.project-link:last-child {
+  margin-right: 0;
+}
+
+.project-link:hover,
+.project-link:active {
+  cursor: pointer;
+}
+
+.project-description {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.project-img {
+  width: 100%;
+}
+
+/************************/
+/* Get In Touch */
+.section-contact {
+  margin-bottom: 9.6rem;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  line-height: 1.5;
+  /* Grid alignment */
+  align-self: start;
+}
+
+.contact-form {
+  /* Grid alignment */
+  justify-self: stretch;
+  /* Flexbox alignment */
+  flex-direction: column;
+  align-items: stretch;
+
+  background-color: #e6e6e6;
+  padding: 2.4rem;
+  border-radius: 3px;
+}
+
+.contact-form label {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  border: none;
+  border-radius: 3px;
+  padding: 0.8rem;
+}
+
+.contact-form textarea {
+  height: 6.4rem;
+}
+
+/************************/
+/* Social links */
+.section-social-links {
+  flex-direction: column;
+  gap: 1.6rem;
+  background-color: #e6e6e6;
+  padding: 1.6rem 2.4rem;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 8rem;
+}
+
+.social-link {
+  font-size: 2.4rem;
+  color: black;
+}
+
+/************************/
+/* Footer */
+.section-footer {
+  line-height: 8rem;
+  text-align: center;
+}
+
+.copywright {
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+  display: inline-block;
+  vertical-align: bottom;
+}

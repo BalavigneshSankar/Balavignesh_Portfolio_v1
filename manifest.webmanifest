@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "./assests/images/favicon-180.png",
+      "type": "image/png",
+      "sizes": "180*180"
+    },
+    {
+      "src": "./assests/images/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512*512"
+    }
+  ]
+}

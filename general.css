@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px (users's browser font-size setting) is 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+}
+
+/************************/
+/* General */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.primary-heading {
+  font-size: 6.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  padding: 3.2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.secondary-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.tertiary-heading {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+  border: none;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+}
+
+.btn--full,
+.btn--full:link,
+.btn--full:visited {
+  color: #222;
+  background-color: #facf0f;
+  border-radius: 3px;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  cursor: pointer;
+}
+
+.section-title-box {
+  margin-bottom: 4.8rem;
+}
+
+.secondary-heading {
+  position: relative;
+}
+
+.secondary-heading::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 75rem;
+  background-color: #facf0f;
+  position: absolute;
+  top: 50%;
+  margin-left: 0.8rem;
+}

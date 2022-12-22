@@ -17,3 +17,5 @@ document.querySelector(".link-contact").addEventListener("click", function (e) {
   const id = this.getAttribute("href");
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
 });
+
+// Sticky navigation bar

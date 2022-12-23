@@ -3,12 +3,12 @@
     {
       "src": "./assests/images/favicon-180.png",
       "type": "image/png",
-      "sizes": "180*180"
+      "sizes": "180x180"
     },
     {
       "src": "./assests/images/favicon-512.png",
       "type": "image/png",
-      "sizes": "512*512"
+      "sizes": "512x512"
     }
   ]
 }

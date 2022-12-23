@@ -1,4 +1,3 @@
-Sticky header.
 Show section that is currently viewed by highlighting the corresponding navigation link.
 Functional resume download button.
 Add tooltip to project links (Open repo / Visit site).

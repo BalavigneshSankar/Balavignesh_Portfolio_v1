@@ -4,6 +4,7 @@
   height: 6.4rem;
   padding: 0 1.2rem;
   justify-content: flex-end;
+  margin-bottom: 9.6rem;
 }
 
 .main-nav-list {
@@ -38,7 +39,7 @@
 /************************/
 /* Hero Section */
 .section-hero {
-  margin: 9.6rem 0 12.8rem;
+  margin-bottom: 12.8rem;
 }
 
 .primary-heading span:first-child {

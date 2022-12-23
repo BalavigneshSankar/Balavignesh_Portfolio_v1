@@ -5,11 +5,13 @@ Add tooltip to project links (Open repo / Visit site).
 Enable project links.
 Send form data to a backend. 
 Give feedback to users after sending form data.
+Dynamically update copywright year.
+Make site responsive.
 
 Optimisations:
 Image size optimization.
 Image dimension optimization.
-Lazy loading images.
 
 Features:
-Add slide-in effect.
+Revealing elements on scroll.
+Lazy loading images.

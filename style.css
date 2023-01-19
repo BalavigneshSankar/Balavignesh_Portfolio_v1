@@ -4,7 +4,6 @@
   height: 6.4rem;
   padding: 0 1.2rem;
   justify-content: flex-end;
-  margin-bottom: 9.6rem;
 }
 
 .main-nav-list {
@@ -27,6 +26,10 @@
   cursor: pointer;
 }
 
+.main-nav-link.active {
+  border-bottom: #facf0f solid 2px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -39,7 +42,8 @@
 /************************/
 /* Hero Section */
 .section-hero {
-  margin-bottom: 12.8rem;
+  height: calc(100vh - 6.4rem);
+  padding-top: 12.8rem;
 }
 
 .primary-heading span:first-child {

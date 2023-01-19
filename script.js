@@ -33,9 +33,29 @@ const obsCallback = (entries, observer) => {
 
 const obsOptions = {
   root: null,
-  threshold: 0,
-  rootMargin: `-${headerHeight}px`,
+  threshold: 0.4,
 };
 
 const observer = new IntersectionObserver(obsCallback, obsOptions);
 observer.observe(document.querySelector(".section-hero"));
+
+// Highlighting navigation link that is currently viewed
+const mainNavLinks = document.querySelectorAll(".main-nav-link");
+const sections = document.querySelectorAll(".section");
+
+window.addEventListener("scroll", () => {
+  let sectionViewed;
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.getBoundingClientRect().height;
+    if (window.scrollY >= sectionTop - 0.3 * sectionHeight) {
+      sectionViewed = section;
+    }
+  });
+  mainNavLinks.forEach((link) => {
+    link.classList.remove("active");
+    if (link.getAttribute("href").endsWith(sectionViewed.id)) {
+      link.classList.add("active");
+    }
+  });
+});

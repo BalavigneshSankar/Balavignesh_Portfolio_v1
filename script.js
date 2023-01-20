@@ -57,3 +57,5 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// Sending form data to a backend

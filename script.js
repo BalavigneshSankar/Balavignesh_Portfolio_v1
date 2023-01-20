@@ -19,7 +19,6 @@ document.querySelector(".link-contact").addEventListener("click", function (e) {
 
 // Sticky navigation bar using IntersectionObserver API
 const header = document.querySelector(".header");
-const headerHeight = header.getBoundingClientRect().height;
 
 const obsCallback = (entries, observer) => {
   const [entry] = entries;

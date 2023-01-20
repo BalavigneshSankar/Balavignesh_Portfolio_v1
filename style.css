@@ -27,7 +27,7 @@
 }
 
 .main-nav-link.active {
-  border-bottom: #facf0f solid 2px;
+  border-bottom: 3px solid #facf0f;
 }
 
 .sticky {

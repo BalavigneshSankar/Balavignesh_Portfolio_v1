@@ -1,9 +1,8 @@
 "use strict";
 // Smooth scroll to respective section on clicking navigation link.
 document.querySelector(".main-nav").addEventListener("click", (e) => {
-  e.preventDefault();
-
   if (e.target.classList.contains("main-nav-link")) {
+    e.preventDefault();
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }

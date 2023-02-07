@@ -8,7 +8,7 @@
 
 .main-nav-list {
   list-style: none;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -42,8 +42,9 @@
 /************************/
 /* Hero Section */
 .section-hero {
-  height: calc(100vh - 6.4rem);
-  padding-top: 12.8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-bottom: 9.6rem;
 }
 
 .primary-heading span:first-child {
@@ -214,16 +215,22 @@
 .section-social-links {
   flex-direction: column;
   gap: 1.6rem;
-  background-color: #e6e6e6;
+  background-color: rgba(230, 230, 230, 0.95);
   padding: 1.6rem 2.4rem;
   border-radius: 3px;
   position: fixed;
   bottom: 8rem;
 }
 
-.social-link {
+.social-link:link,
+.social-link:visited {
   font-size: 2.4rem;
   color: black;
+}
+
+.social-link:hover,
+.social-link:active {
+  cursor: pointer;
 }
 
 /************************/

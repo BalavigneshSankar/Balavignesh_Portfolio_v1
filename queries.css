@@ -1,0 +1,72 @@
+/* rem and em do not depend on html font-size in media queries. 1rem = 1em = 16px */
+
+/************************/
+/* Below 1344px - Small desktop */
+@media (max-width: 84em) {
+  html {
+    font-size: 59.375%;
+  }
+
+  .primary-heading {
+    font-size: 5.2rem;
+  }
+
+  .grid {
+    gap: 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .section-social-links {
+    padding: 1.2rem 1.6rem;
+  }
+
+  .social-link {
+    font-size: 2.2rem;
+  }
+}
+
+/************************/
+/* Below 1200px - Landscape tablet */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+
+  .grid {
+    gap: 2.4rem;
+  }
+
+  .section-social-links {
+    flex-direction: row;
+    justify-content: center;
+    background-color: initial;
+    border-radius: 0;
+    position: static;
+  }
+
+  .social-link:link,
+  .social-link:visited {
+    color: #656565;
+  }
+
+  .social-link:hover,
+  .social-link:active {
+    cursor: pointer;
+    color: black;
+  }
+
+  .section-footer {
+    line-height: inherit;
+  }
+
+  .copywright {
+    display: block;
+  }
+}

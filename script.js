@@ -58,4 +58,7 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// Sending form data to a backend
+// Dynamic update of copywright year.
+const yearContainer = document.querySelector(".year");
+const currentYearStr = new Date().getFullYear().toString();
+yearContainer.textContent = currentYearStr;

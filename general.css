@@ -7,6 +7,7 @@
 html {
   /* 62.5% of 16px (users's browser font-size setting) is 10px */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #222;
+  overflow-x: hidden;
 }
 
 /************************/
@@ -103,10 +105,14 @@ body {
 .secondary-heading::after {
   content: "";
   display: inline-block;
-  height: 1px;
-  width: 75rem;
+  height: 0.5px;
+  width: 70%;
   background-color: #facf0f;
   position: absolute;
   top: 50%;
-  margin-left: 0.8rem;
+  margin-left: 0.4rem;
+}
+
+.hidden {
+  display: none;
 }

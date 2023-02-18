@@ -21,6 +21,7 @@ const header = document.querySelector(".header");
 
 const obsCallback = (entries, observer) => {
   const [entry] = entries;
+  console.log(entry);
   if (!entry.isIntersecting) {
     header.classList.add("sticky");
   }
@@ -62,3 +63,9 @@ window.addEventListener("scroll", () => {
 const yearContainer = document.querySelector(".year");
 const currentYearStr = new Date().getFullYear().toString();
 yearContainer.textContent = currentYearStr;
+
+// Mobile navigation.
+const mobileNavBtn = document.querySelector(".btn-mobile-nav");
+mobileNavBtn.addEventListener("click", function () {
+  header.classList.toggle("nav-open");
+});

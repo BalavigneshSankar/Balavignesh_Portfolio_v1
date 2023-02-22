@@ -165,6 +165,10 @@
   .secondary-heading::after {
     width: 55%;
   }
+
+  .contact-form .btn {
+    padding: 2.4rem;
+  }
 }
 
 /************************/
@@ -189,5 +193,23 @@
 
   .secondary-heading::after {
     width: 45%;
+  }
+
+  .contact-form label {
+    margin-bottom: 1.6rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 3.2rem;
+  }
+
+  .contact-form textarea {
+    height: 15rem;
+  }
+
+  .social-link:link,
+  .social-link:visited {
+    font-size: 3rem;
   }
 }

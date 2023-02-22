@@ -220,11 +220,12 @@
 
 .contact-form input,
 .contact-form textarea {
+  font-family: inherit;
   font-size: 2rem;
   margin-bottom: 2.4rem;
   border: none;
   border-radius: 3px;
-  padding: 0.8rem;
+  padding: 1.6rem;
 }
 
 .contact-form textarea {
@@ -233,7 +234,7 @@
 
 .contact-form .btn {
   font-size: 2rem;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem;
 }
 
 /************************/

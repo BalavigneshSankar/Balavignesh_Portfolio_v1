@@ -116,3 +116,22 @@ body {
 .hidden {
   display: none;
 }
+
+.tooltiplink {
+  position: relative;
+}
+
+.tooltiplink:hover::after {
+  content: attr(data-title);
+  background-color: #facf0f;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}

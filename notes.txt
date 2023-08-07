@@ -1,7 +1,4 @@
 Functionalities:
-Add tooltip to project links (Open repo / Visit site).
-Enable project links.
-Send form data to our firebase backend. 
 Give custom feedback to users after sending form data.
 
 Optimisations:

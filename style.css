@@ -175,6 +175,11 @@
   cursor: pointer;
 }
 
+.icon-github,
+.icon-open {
+  pointer-events: none;
+}
+
 .project-description {
   font-size: 2rem;
   margin-bottom: 1.6rem;
